@@ -1,0 +1,21 @@
+[project]
+name = "ranking-there"
+version = "0.1.0"
+description = "ranking models"
+authors = [
+    {name = "DaryaYu",email = "33330219+DaryaYu@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "notebook (>=7.6.3,<8.0.0)"
+]
